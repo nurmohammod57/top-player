@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --main-color : #562EFF;
+    --course-user-color : #ED6B4F;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #9F9F9F;
+}
+
+/* ============== Header section ============== */
+
+header{
+    background: var(--main-color);
+}
+.brand-name{
+    font-size: 24px;
+    margin-left: 7px;
+}
+section{
+    margin-top: 36px;
+}
+
+/* ============== Player section ============== */
+
+
+.player-blog{
+    padding: 33px;
+    border-radius: 10px;
+}
+.section-title{
+    color: var(--main-color);
+    margin-bottom: 55px;
+}
+.player-img{
+    width: 56px;
+    margin-right: 16px;
+}
+.player-name{
+    font-size: 18px;
+}
+
+/* ============== Blog section ============== */
+
+.blog-image img{
+    width: 177px;
+}
+
+.blog-title a{
+    text-decoration: none;
+}
+.post-by{
+    color: #a6a3a3;
+}
+.post-user{
+    color: var(--main-color);
+    font-size: 16px;
+}
+
+/* ============== Courses section ============== */
+
+.courses{
+    padding: 33px;
+    border-radius: 10px;
+}
+.courses .course-user{
+    color: var(--course-user-color);
+}
+.card-title a{
+    text-decoration: none;
+}
+.course-time{
+    background: #FEE5DF;
+    padding: 3px 8px;
+    color: var(--course-user-color);
+}
